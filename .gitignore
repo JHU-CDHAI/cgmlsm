@@ -1,0 +1,59 @@
+# data
+# data/
+wandb/
+darts_models/
+darts_logs/
+sftp.json
+*tar.gz
+_Data
+
+google-keys/
+cache/
+
+lightning_logs/
+
+*.zip
+_test/
+_test2/
+_test_dataset/
+
+
+**/opt_ml/input/data**
+**/opt_program/external/** */
+
+**/input/** 
+**/model/**
+*/wandb/*
+*_TODO/
+document/
+# _static/
+_Data/
+*tar.gz
+_Data2/
+_Model/
+Data_*/
+*/data/*
+Documents/
+2022Data/
+_old/
+.ipynb_checkpoints/
+__pycache__/*
+*.pyc  
+*/.ipynb_checkpoints/
+*/_old 
+*/__pycache__/*
+*/Output
+*/__pycache__
+*/*/__pycache__
+*/_230113version
+*.log
+*.pkl
+# *.p
+*/L2
+.DS_Store
+*.rec2feat.egg-info/*
+0-DataRaw
+*/TODO/
+TODO/
+*.code-workspace*
+*-Data*

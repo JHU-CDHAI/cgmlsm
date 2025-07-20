@@ -1,0 +1,17 @@
+{
+    "python.analysis.extraPaths": [
+        "./pipeline",
+        "./code/pipeline"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportIndexIssue": "none"
+    },
+    "python.languageServer": "None",
+    "cursorpyright.analysis.diagnosticSeverityOverrides": {
+        "reportIndexIssue": "none"
+    },
+    "cursorpyright.analysis.extraPaths": [
+        "./pipeline",
+        "./code/pipeline"
+    ]
+}

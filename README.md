@@ -1,0 +1,1 @@
+scp -r jluo41@login.rockfish.jhu.edu:/home/jluo41/workspace/2025-WellDoc/_Model/CgmLsm_Model  _Model/
