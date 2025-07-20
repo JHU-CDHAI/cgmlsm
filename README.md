@@ -6,13 +6,6 @@ A novel transformer-based language model approach for continuous glucose monitor
 
 CGM-LSM introduces a paradigm shift in glucose prediction by treating CGM time series as sequences of discrete tokens rather than continuous numerical values. This approach leverages the power of transformer architectures and pre-training to learn rich representations of glucose patterns, achieving superior performance compared to traditional time series forecasting methods.
 
-### Key Features
-
-- **Novel Tokenization**: Glucose values (10-401 mg/dL) and time stamps (5-minute intervals) are treated as discrete tokens
-- **Transformer Architecture**: 12-layer transformer with 768 hidden dimensions optimized for glucose sequence modeling
-- **Multi-Cohort Training**: Trained on diverse diabetes datasets including WellDoc and OhioT1DM
-- **Superior Performance**: Outperforms LSTM, traditional transformers, and other baseline models on glucose prediction
-- **Clinical Relevance**: Optimized for medically relevant metrics including Time-in-Range (TIR) accuracy
 
 ## Repository Structure
 
@@ -101,10 +94,7 @@ The repository supports multiple diabetes datasets:
 - Used for pre-training and primary evaluation
 
 ### OhioT1DM Dataset
-- 24 patients with Type 1 diabetes
+- 12 patients with Type 1 diabetes
 - 8-week continuous monitoring
 - Used for out-of-domain evaluation and baseline comparisons
-
-
-```
 
