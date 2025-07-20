@@ -1,4 +1,4 @@
-# CGM-LSM: Continuous Glucose Monitoring Language Sensor Model
+# A Large Sensor Foundation Model Pretrained on Continuous Glucose Monitor Data for Diabetes Management
 
 A novel transformer-based language model approach for continuous glucose monitoring (CGM) data analysis and glucose prediction. This repository implements CGM-LSM, which treats glucose values as tokens in a sequence and applies natural language processing techniques to achieve state-of-the-art performance on glucose forecasting tasks.
 
