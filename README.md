@@ -7,42 +7,6 @@ A novel transformer-based language model approach for continuous glucose monitor
 CGM-LSM introduces a paradigm shift in glucose prediction by treating CGM time series as sequences of discrete tokens rather than continuous numerical values. This approach leverages the power of transformer architectures and pre-training to learn rich representations of glucose patterns, achieving superior performance compared to traditional time series forecasting methods.
 
 
-## Repository Structure
-
-```
-cgmlsm/
-├── 1-CGMLSM/                    # Main CGM-LSM implementation and experiments
-│   ├── run_cgmlsm_pretrain.py   # Pre-training script for CGM-LSM model
-│   └── Notebook/                # Jupyter notebooks for development workflow
-│       ├── a-ConvertDataToHF.ipynb        # Data conversion to HuggingFace format
-│       ├── b-Pretrain-CGMLSM.ipynb        # Model pre-training
-│       ├── c-Prediction-Visualization.ipynb # Performance evaluation and visualization
-│       ├── c-Visualize-Model.ipynb        # Model representation analysis
-│       └── d-MakePrediction.ipynb         # Inference pipeline
-├── 2-OhioT1DM/                  # OhioT1DM dataset processing and baseline comparisons
-│   ├── 1_run_record.py          # Raw data processing
-│   ├── 2_run_case_tag.py        # Case tagging and labeling
-│   ├── 3_run_ds_case_split.py   # Dataset splitting
-│   ├── 4_run_case_ohio.py       # Ohio-specific case processing
-│   ├── 5_run_ohio_hfds.py       # HuggingFace dataset creation
-│   ├── run_glucopred_models.py  # Baseline model evaluation
-│   └── Notebook/                # Analysis notebooks
-│       ├── 1-Split-OhioT1D.ipynb          # Dataset splitting and preparation
-│       ├── 2-OhioT1DM-HFDS.ipynb          # HuggingFace dataset conversion
-│       ├── 3-Nixtla-Process-1ph.ipynb     # Nixtla model data preparation
-│       └── 4-Model-Results.ipynb          # Comprehensive model comparison
-└── code/                        # Core implementation
-    └── pipeline/                # Data processing and model pipeline
-        ├── nn/cgmlsm/           # CGM-LSM model implementation
-        │   ├── configuration_cgmlsm.py    # Model configuration
-        │   ├── modeling_cgmlsm.py         # Core model architecture
-        │   ├── inference_cgmlsm.py        # Inference utilities
-        │   └── instance_cgmlsm.py         # Model instantiation
-        ├── fn/                  # Feature engineering functions
-        ├── recfldtkn/          # Record, field, and token processing utilities
-        └── config/             # Configuration files
-```
-
 ## Quick Start
 
 ### Prerequisites
